@@ -67,7 +67,8 @@ for row in rows:
                 """,
                 unsafe_allow_html=True,
             )
-            st.page_link(target, label=f"Open {title}", icon="➡️")
+
+st.info("👈 Use the sidebar to open any lab.")
 
 st.divider()
 st.caption(
